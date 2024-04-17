@@ -60,7 +60,7 @@
              font-size: 1rem;
         }
 
-        .item{width: 96%;}
+        .item{width: 50%; padding-bottom: 50px;}
 
         .img1 {background-image: url('../img/1.png');
             height: auto;
@@ -92,6 +92,9 @@
             justify-content: space-around;
             padding-top: 50px; 
             padding-bottom: 100px;
+            gap: 1%}
+
+        .flex2{display: flex;
             gap: 1%}
 
         .flex div{width:32%;
@@ -129,7 +132,7 @@
             h1 { font-size: 4rem; }
             section { font-size: 1rem; }
 
-      @font-face {
+        @font-face {
                 font-family: 'Pretendard-Regular';
                 src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
                 font-weight: 400;
