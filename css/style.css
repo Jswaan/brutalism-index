@@ -60,7 +60,16 @@
              font-size: 1rem;
         }
 
-        .item{width: 50%; padding-bottom: 50px;}
+        p2{ 
+            font-size: 3rem;
+            padding-bottom: 40px; 
+            line-height: 1.1;}
+
+        .item{width: 50%; 
+            padding-bottom: 50px;
+            justify-content: space-around;
+            overflow: hidden;
+        }
 
         .img1 {background-image: url('../img/1.png');
             height: auto;
