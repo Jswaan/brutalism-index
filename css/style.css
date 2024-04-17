@@ -132,6 +132,8 @@
 
         .center{text-align: center;}
 
+        .padbot{padding-bottom: 50px;}
+
         @keyframes flow-text {
             from { left: 100%; }
             to { left: -100%; }
