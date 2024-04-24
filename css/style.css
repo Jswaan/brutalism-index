@@ -79,17 +79,7 @@
             bottom: 0; 
         }
 
-        footer::before {
-            content: "";  
-            display: block; 
-            height: 1px; 
-            background-color: black; 
-            width: 100%; 
-            position: relative; 
-            left: 0; 
-            bottom: 0; }
-
-        footer{padding-top: 100px;}
+        footer{margin: auto;}
 
         .item{width: 50%; 
             padding-bottom: 50px;
@@ -130,6 +120,11 @@
         .wrap{width: 96%; 
             margin: auto;
             padding-bottom: 50px;}
+
+        .wrap2{width: 70%; 
+            margin: auto;
+            padding-bottom: 50px;
+            display: block; }
 
         .flex{display: flex;
             flex-wrap: wrap;
@@ -215,6 +210,8 @@
             font-weight: 100;
             font-style: normal;
         }
+
+
 
         @keyframes flow-text {
             from { left: 100%; }
